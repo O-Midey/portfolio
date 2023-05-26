@@ -22,25 +22,24 @@ function App() {
 
   return (
     <div className="container mx-auto p-6 flex flex-col justify-center ">
-      <BrowserRouter>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Layout
-                openMobileNav={openMobileNav}
-                setOpenMobileNav={setOpenMobileNav}
-              />
-            }
-          >
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="resume" element={<Resume />} />
-            <Route path="projects" element={<Projects />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Layout
+              openMobileNav={openMobileNav}
+              setOpenMobileNav={setOpenMobileNav}
+            />
+          }
+        >
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="projects" element={<Projects />} />
+        </Route>
+      </Routes>
+
       {openMobileNav && <NavMenuMobile />}
     </div>
   );
