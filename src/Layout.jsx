@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Twirl as Hamburger } from "hamburger-react"; // library for the hamburger icon.
 import { motion } from "framer-motion";
 import { Outlet, Link } from "react-router-dom";
