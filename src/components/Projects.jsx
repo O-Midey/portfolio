@@ -30,7 +30,10 @@ export const Projects = () => {
             className="projects mx-auto w-full md:w-4/5 lg:grid grid-cols-2 gap-8"
           >
             <div className="project-tile w-full h-48 mb-12 md:max-w-[90%] mx-auto ">
-              <img className="project-image" src="src\assets\portfolio.png" />
+              <img
+                className="project-image"
+                src="https://res.cloudinary.com/daypv7q8r/image/upload/v1685146875/portfolio_zrw2lp.png"
+              />
               <div className="overlay">
                 <h1>portfolio website</h1>
                 <p>personal portfolio website</p>
@@ -43,7 +46,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project-tile w-full h-48 mb-12 md:mb-0  md:max-w-[90%] mx-auto">
-              <img className="project-image" src="src\assets\todo.png" />
+              <img
+                className="project-image"
+                src="https://res.cloudinary.com/daypv7q8r/image/upload/v1685146874/todo_osi50o.png"
+              />
               <div className="overlay">
                 <h1>todo app</h1>
                 <p>a todo app to keep track of your tasks and goals.</p>
@@ -56,7 +62,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project-tile mb-12 md:mb-0 w-full col-span-2 h-48 md:max-w-[90%] mx-auto">
-              <img className="project-image" src="src\assets\quotes.png" />
+              <img
+                className="project-image"
+                src="https://res.cloudinary.com/daypv7q8r/image/upload/v1685146874/quotes_l3uchl.png"
+              />
               <div className="overlay">
                 <h1>quotes generator</h1>
                 <p>personal portfolio website</p>
