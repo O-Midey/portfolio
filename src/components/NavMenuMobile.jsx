@@ -1,6 +1,6 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { closeNavbar } from "../App";
 
 export const NavMenuMobile = () => {

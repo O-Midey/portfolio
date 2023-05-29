@@ -35,7 +35,7 @@ const Home = () => {
         </div>
         <motion.div layout className="hidden lg:block">
           <motion.img
-            src="src\assets\coder.gif"
+            src="https://res.cloudinary.com/daypv7q8r/image/upload/v1685146885/coder_rcdakb.gif"
             layout
             style={{ width: 500 }}
           />

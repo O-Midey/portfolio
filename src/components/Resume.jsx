@@ -24,9 +24,14 @@ export const Resume = () => {
           >
             Click{" "}
             <span className="colored-text">
-              <a href="">here</a>
+              <a
+                href="https://drive.google.com/file/d/16UM2wb7r6w1kcrxZjnFFYY2pWj3hLmbp/view"
+                target="_blank"
+              >
+                here
+              </a>
             </span>{" "}
-            to view my resumé. You can also see my projects here.
+            to view my resumé.
           </motion.p>
         </div>
       </section>
