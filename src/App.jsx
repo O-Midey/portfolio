@@ -7,6 +7,9 @@ import { Resume } from "./components/Resume";
 import { Contact } from "./components/Contact";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
+
+//// function to close the navbar when the link is clicked
+
 export const closeNavbar = () => {
   setOpenMobileNav(false);
 };

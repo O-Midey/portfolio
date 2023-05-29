@@ -23,7 +23,7 @@ export const Contact = () => {
               transition={{ duration: 3, delay: 1.5 }}
               className="about-me"
             >
-              you can shoot me an email directly on{" "}
+              love to collaborate? you can shoot me an email directly on{" "}
               <span className="colored-text">
                 <a href="mailto:thatboymidey@gmail.com">
                   thatboymidey@gmail.com

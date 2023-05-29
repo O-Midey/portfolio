@@ -1,6 +1,6 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import { closeNavbar } from "../App";
 
 export const NavMenuMobile = () => {
@@ -17,16 +17,16 @@ export const NavMenuMobile = () => {
         <Link onClick={closeNavbar} to="/">
           home
         </Link>
-        <Link onClick={closeNavbar} to="/about">
+        <Link onClick={closeNavbar} to="about">
           about
         </Link>
-        <Link onClick={closeNavbar} to="/projects">
+        <Link onClick={closeNavbar} to="projects">
           projects
         </Link>
-        <Link onClick={closeNavbar} to="/resume">
+        <Link onClick={closeNavbar} to="resume">
           resume
         </Link>
-        <Link onClick={closeNavbar} to="/contact">
+        <Link onClick={closeNavbar} to="contact">
           contact
         </Link>
       </motion.div>
