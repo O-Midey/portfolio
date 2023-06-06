@@ -14,7 +14,7 @@ const About = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 3, delay: 0.5 }}
-              className="section-heading font-bold text-5xl my-[10vw] md:my-[5vw]   "
+              className="section-heading"
             >
               <span>About me.</span>
             </motion.h1>
