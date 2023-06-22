@@ -24,8 +24,8 @@ const Home = () => {
           >
             A front-end web developer and a music enthusiast. I am passionate
             about developing web applications with beautiful and intuitive user
-            interfaces.<br></br> I use tools like{" "}
-            <span className="special-text">Javascript</span> ,{" "}
+            interfaces.<br></br> I use tools like
+            <span className="special-text"> NextJS</span> ,
             <span className="special-text">ReactJS</span> ,
             <span className="special-text">Typescript</span> ,{" "}
             <span className="special-text">Tailwind CSS</span> ,
@@ -33,13 +33,13 @@ const Home = () => {
             magic happen on the internet.
           </motion.p>
         </div>
-        <motion.div layout className="hidden lg:block">
-          <motion.img
+        <div layout className="hidden lg:block">
+          <img
             src="https://res.cloudinary.com/daypv7q8r/image/upload/v1685146885/coder_rcdakb.gif"
             layout
             style={{ width: 500 }}
           />
-        </motion.div>
+        </div>
       </section>
     </AnimatePresence>
   );
