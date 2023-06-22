@@ -10,6 +10,7 @@ const projectTile = () => {
           <h1>{project.title}</h1>
           <p>{project.description}</p>
           <div className="stacks flex gap-2">
+            {/* Add technology buttons */}
             {project.technologies.map((technology, index) => {
               return <button key={index}>{technology}</button>;
             })}
