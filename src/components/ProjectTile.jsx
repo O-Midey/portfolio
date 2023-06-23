@@ -24,4 +24,4 @@ const projectTile = () => {
   });
 };
 
-export default projectTile;
+export default ProjectTile;
