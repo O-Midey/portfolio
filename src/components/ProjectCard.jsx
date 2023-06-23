@@ -1,7 +1,7 @@
 import React from "react";
 import projects from "./projects.json";
 
-const projectTile = () => {
+export const ProjectCard = () => {
   return projects.map((project) => {
     return (
       <div key={project.id} className="project-tile ">
@@ -10,7 +10,6 @@ const projectTile = () => {
           <h1>{project.title}</h1>
           <p>{project.description}</p>
           <div className="stacks flex gap-2">
-            {/* Add technology buttons */}
             {project.technologies.map((technology, index) => {
               return <button key={index}>{technology}</button>;
             })}
@@ -23,5 +22,3 @@ const projectTile = () => {
     );
   });
 };
-
-export default ProjectTile;

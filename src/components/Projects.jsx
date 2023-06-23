@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import ProjectTile from "C:UsersodetoDesktopportfoliosrccomponentsProjectTile.jsx";
+import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   return (
@@ -30,7 +30,7 @@ export const Projects = () => {
             transition={{ duration: 3, delay: 1.5 }}
             className="projects "
           >
-            <ProjectTile />
+            <ProjectCard />
           </motion.div>
         </div>
       </section>
