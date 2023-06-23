@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import ProjectTile from "./projectTile";
+import ProjectTile from "C:UsersodetoDesktopportfoliosrccomponentsProjectTile.jsx";
 
 export const Projects = () => {
   return (
