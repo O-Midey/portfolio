@@ -35,7 +35,7 @@ const About = () => {
                 and improving difficult code, and I'm always looking for fresh
                 approaches to challenges. <br /> My skillset includes
                 proficiency in HTML, CSS, JavaScript, Tailwind CSS, React JS,
-                Framer Motion and vesrion control (Git). <br /> <br />
+                Framer Motion and version control (Git). <br /> <br />
                 In addition to my technical skills, I am a dedicated team player
                 who values collaboration and open communication. I enjoy working
                 closely with clients and colleagues to ensure that every project
