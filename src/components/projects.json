@@ -7,7 +7,6 @@
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     projectLink: "https://mide-portfolio.vercel.app/",
   },
-
   {
     id: 2,
     title: "todo app",
