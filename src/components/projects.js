@@ -1,4 +1,4 @@
-[
+const projects = [
   {
     id: 1,
     title: "portfolio website",
@@ -40,3 +40,6 @@
     projectLink: "https://shop-luxe-theta.vercel.app/",
   },
 ];
+
+
+export default projects;
